@@ -22,7 +22,7 @@ class MainActivity : BaseActivity<PostPresenter>(), PostView {
     }
 
     override fun updatePosts(posts: List<Post>) {
-        Log.e("LIFECYCLE ", "updatePosts")
+        Log.e("LIFECYCLE ", "updatePosts development")
         posts.forEach {
             Log.e("POST_ITEMS ", it.toString())
         }
